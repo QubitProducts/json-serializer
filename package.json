@@ -1,0 +1,22 @@
+{
+  "name": "json-serializer",
+  "version": "2.0.4",
+  "description": "JSON compatible serializer and deserializer for javascript.",
+  "main": "web/src/js/json.js",
+  "directories": {},
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/QubitProducts/json-serializer"
+  },
+  "author": "Peter Fronc <peter.fronc@qubitproducts.com>",
+  "license": "LGPL:",
+  "devDependencies": {},
+  "keywords": [
+    "json",
+    "serialize",
+    "javascript",
+    "object",
+    "serializer"
+  ]
+}
