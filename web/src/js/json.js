@@ -314,7 +314,7 @@
     strings = [];
     for (var key in object) {
       var prop = object[key];
-      if (this.hasOwn && !object.hasOwnProperty(key)) {
+      if (this.hasOwn && object.hasOwnProperty && !object.hasOwnProperty(key)) {
         continue;
       }
       if (this.excludeInstances && checkIfInstanceOf(prop, this.excludeInstances)) {
